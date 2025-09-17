@@ -10,6 +10,6 @@ Pierce Issah
 ### Links
 
 - [Web4 Link]()
-- [Github Pages]()
+- [Github Pages](https://pjiceskull.github.io/N423-Local-Storage/)
 
 ### About Project
