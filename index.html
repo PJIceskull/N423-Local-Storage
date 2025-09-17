@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Database | HW3</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <section class="studentForm">
+      <h1>Student Database</h1>
+
+      <p>Please enter your Student Information below.</p>
+
+      <div class="inputWrap">
+        <label for="Name">Name:</label>
+        <input type="text" id="firstName" placeholder="First Name" />
+        <input type="text" id="lastName" placeholder="Last Name" />
+      </div>
+
+      <div class="inputWrap">
+        <label for="age">Age:</label>
+        <input type="text" id="studentAge" placeholder="Age" />
+      </div>
+      <div class="inputWrap">
+        <label for="Phone">Phone Number:</label>
+        <input type="number" id="phoneNumber" placeholder="Phone Number" />
+      </div>
+      <div class="inputWrap">
+        <label for="email">Email:</label>
+        <input type="text" id="studentEmail" placeholder="Email Address" />
+      </div>
+      <div class="inputWrap">
+        <label for="classes">Classes:</label>
+        <input
+          type="text"
+          id="classes"
+          placeholder="Add your Classes spearated by a comma"
+        />
+      </div>
+
+      <input type="submit" id="submit" value="Submit" />
+    </section>
+
+    <input type="button" id="showListBTN" value="Show List" />
+
+    <section class="studentList"></section>
+
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="app/app.js"></script>
+  </body>
+</html>

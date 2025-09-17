@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  font-family: Helvetica, sans-serif;
+  color: #464646;
+  background-color: #a1a194;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 15px;
+  padding: 25px 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.studentForm,
+.studentInfo {
+  background-color: #fffffa;
+  padding: 25px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.studentForm h1,
+.studentForm h2,
+.studentInfo h1,
+.studentInfo h2 {
+  color: #ff6600;
+}
+.studentForm h1,
+.studentForm h2,
+.studentForm p,
+.studentInfo h1,
+.studentInfo h2,
+.studentInfo p {
+  margin-bottom: 0;
+}
+
+.studentForm {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  min-width: 50vw;
+}
+.studentForm label {
+  font-weight: bold;
+  font-size: 18px;
+  align-self: flex-start;
+}
+.studentForm input {
+  padding: 15px 5px 10px;
+  font-size: 14px;
+  color: #464646;
+  border: none;
+  border-bottom: 2px solid #464646;
+  background-color: #f9f9ef;
+}
+
+.inputWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.inputWrap input {
+  width: 100%;
+}
+
+.studentList {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.studentInfo {
+  align-items: flex-start;
+  gap: 14px;
+  width: 35dvw;
+}
+
+#submit,
+#showListBTN {
+  transition-duration: 0.3s;
+  cursor: pointer;
+  border-radius: 30px;
+  color: #fffffa;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#submit {
+  background-color: #464646;
+  padding: 14px 28px;
+  font-size: 18px;
+}
+#submit:hover {
+  background-color: #5b605f;
+}
+#submit:active {
+  background-color: #a1a194;
+}
+
+#showListBTN {
+  background-color: #ff6600;
+  font-size: 24px;
+  padding: 15px 25px;
+}
+#showListBTN:hover {
+  background-color: rgb(255, 147.9, 76.5);
+}
+#showListBTN:active {
+  background-color: #fffffa;
+  color: #ff6600;
+}
+
+/*# sourceMappingURL=styles.css.map */

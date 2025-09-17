@@ -1,0 +1,19 @@
+{
+  "name": "homework-three",
+  "version": "1.0.0",
+  "description": "Pierce Issah",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "serve": "live-server",
+    "compile:sass": "sass scss/styles.scss css/styles.css -w"
+  },
+  "keywords": [],
+  "author": "Pierce Issah",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.92.1"
+  }
+}
