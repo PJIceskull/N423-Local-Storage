@@ -10,7 +10,7 @@ node_modules
 .npm 
 
 # project 
-/scss 
+# /scss 
 /css/style.css.map
 /css/styles.css.map
 
